@@ -1,57 +1,57 @@
 var myQuestions = [{
 
-    question: "",
+    question: "What does HTML stand for?",
     answers: {
-        a: "",
-        b: "",
-        c: "",
-        d: "",
+        a: "Hyper Training Marking Language",
+        b: "Hyper Text Marketing Language",
+        c: "Hyper Text Markup Language",
+        d: "None of the above",
     },
-    correctAnswer: "",
+    correctAnswer: "c",
 },
 {
 
-    question: "",
+    question: "What is an array?",
     answers: {
-        a: "",
-        b: "",
-        c: "",
-        d: "",
+        a: "list",
+        b: "paragraph",
+        c: "both of the above",
+        d: "none of the above",
     },
-    correctAnswer: "",
+    correctAnswer: "a",
 },
 {
 
-    question: "",
+    question: "What does CSS stand for?",
     answers: {
-        a: "",
-        b: "",
-        c: "",
-        d: "",
+        a: "Creating Style Sheet",
+        b: "Creating Sheet Style",
+        c: "Canvasing Style Sheet",
+        d: "Cascading Style Sheet",
     },
-    correctAnswer: "",
+    correctAnswer: "d",
 },
 {
 
-    question: "",
+    question: "Objects contain many ___?",
     answers: {
-        a: "",
-        b: "",
-        c: "",
-        d: "",
+        a: "Subjects",
+        b: "Values",
+        c: "Variables",
+        d: "Both B & C",
     },
-    correctAnswer: "",
+    correctAnswer: "d",
 },
 {
 
-    question: "",
+    question: "___ is a free and open-source CSS framework directed at responsive, mobile-first-front-end web development?",
     answers: {
-        a: "",
-        b: "",
-        c: "",
-        d: "",
+        a: "Barnstrap CSS",
+        b: "Bootstrap CSS",
+        c: "Bootstar CSS",
+        d: "None of the above",
     },
-    correctAnswer: "",
+    correctAnswer: "b",
 },
 
 
