@@ -1,4 +1,4 @@
-var question = [{
+var questions = [{
 
     question: "What does HTML stand for?",
     answers: {
