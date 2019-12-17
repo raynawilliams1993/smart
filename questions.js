@@ -1,57 +1,57 @@
-var myQuestions = [{
+var question = [{
 
     question: "What does HTML stand for?",
     answers: {
-        a: "Hyper Training Marking Language",
-        b: "Hyper Text Marketing Language",
-        c: "Hyper Text Markup Language",
-        d: "None of the above",
+        choiceA: "Hyper Training Marking Language",
+        choiceB: "Hyper Text Marketing Language",
+        choiceC: "Hyper Text Markup Language",
+        choiceD: "None of the above",
     },
-    correctAnswer: "c",
+    correctAnswer: "C",
 },
 {
 
     question: "What is an array?",
     answers: {
-        a: "list",
-        b: "paragraph",
-        c: "both of the above",
-        d: "none of the above",
+        choiceA: "list",
+        choiceB: "paragraph",
+        choiceC: "both of the above",
+        choiceD: "none of the above",
     },
-    correctAnswer: "a",
+    correctAnswer: "A",
 },
 {
 
     question: "What does CSS stand for?",
     answers: {
-        a: "Creating Style Sheet",
-        b: "Creating Sheet Style",
-        c: "Canvasing Style Sheet",
-        d: "Cascading Style Sheet",
+        choiceA: "Creating Style Sheet",
+        choiceB: "Creating Sheet Style",
+        choiceC: "Canvasing Style Sheet",
+        choiceD: "Cascading Style Sheet",
     },
-    correctAnswer: "d",
+    correctAnswer: "D",
 },
 {
 
     question: "Objects contain many ___?",
     answers: {
-        a: "Subjects",
-        b: "Values",
-        c: "Variables",
-        d: "Both B & C",
+        choiceA: "Subjects",
+        choiceB: "Values",
+        choiceC: "Variables",
+        choiceD: "Both B & C",
     },
-    correctAnswer: "d",
+    correctAnswer: "D",
 },
 {
 
     question: "___ is a free and open-source CSS framework directed at responsive, mobile-first-front-end web development?",
     answers: {
-        a: "Barnstrap CSS",
-        b: "Bootstrap CSS",
-        c: "Bootstar CSS",
-        d: "None of the above",
+        choiceA: "Barnstrap CSS",
+        choiceB: "Bootstrap CSS",
+        choiceC: "Bootstar CSS",
+        choiceD: "None of the above",
     },
-    correctAnswer: "b",
+    correctAnswer: "B",
 },
 
 
