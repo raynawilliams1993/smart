@@ -24,3 +24,8 @@ function renderQuestion(){
     choiceC.innerHTML = q.choiceC;
     choiceD.innerHTML = q.choiceD;
 }
+function renderProgress(){
+    for(var qIndex = 0; qIndex <= lastQuestion; qIndex++){
+        progress.innerHTML += "<div class = 'prog' id="+ qIndex +"></div>";
+    }
+}
