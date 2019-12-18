@@ -1,3 +1,6 @@
+var lastQuestion = questions.length - 1;
+var runningQuestion = 0;
+
 var questions = [{
 
     question: "What does HTML stand for?",
@@ -56,3 +59,21 @@ var questions = [{
 
 
 ]
+// render a question
+function renderQuestion() {
+    var q = questions[runningQuestion];
+    question.innerHTML = "<p>" + q.question + "</p>";
+    choiceA.innerHTML = q.choiceA;
+    choiceB.innerHTML = q.choiceB;
+    choiceC.innerHTML = q.choiceC;
+    choiceD.innerHTML = q.choiceD;
+}
+start.style.display = "none";
+renderQuestion();
+quiz.style.display="block"
+
+function renderProgress() {
+    for(let qIndex = 0; qIndex <= lastQuestion.length; qIndex ++) {
+        progress.innerHTML += "<div class ='prog'></div>";
+    }
+}
