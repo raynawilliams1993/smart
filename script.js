@@ -23,26 +23,41 @@ let questions = [
     },{
         question : "What does CSS stand for?",
         imgSrc : "img/css.png",
-        choiceA : "Wrong",
+        choiceA : "Creating Style Sheets",
         choiceB : "Cascading Style Sheets",
-        choiceC : "Wrong",
+        choiceC : "None of the above",
         correct : "B"
     },{
-        question : "What does JS stand for?",
+        question : "What does a div do?",
         imgSrc : "img/js.png",
-        choiceA : "Wrong",
-        choiceB : "Wrong",
-        choiceC : "Correct",
+        choiceA : "Nothing",
+        choiceB : "I don't know",
+        choiceC : "defines a division",
+        correct : "C"
+    },{
+        question : "What does p stand for?",
+        imgSrc : "img/js.png",
+        choiceA : "paragraph",
+        choiceB : "page",
+        choiceC : "none of the above",
+        correct : "A"
+    },{
+        question : "How do you quickly make a HTML doc?",
+        imgSrc : "img/js.png",
+        choiceA : "tab !",
+        choiceB : "shift !",
+        choiceC : "! tab",
         correct : "C"
     }
 ];
+
 
 // create some variables
 
 const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
 let count = 0;
-const questionTime = 10; // 10s
+const questionTime = 15; // 15s
 const gaugeWidth = 150; // 150px
 const gaugeUnit = gaugeWidth / questionTime;
 let TIMER;
@@ -100,7 +115,7 @@ function renderCounter(){
     }
 }
 
-// checkAnwer
+// checkAnswer
 
 function checkAnswer(answer){
     if( answer == questions[runningQuestion].correct){
