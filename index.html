@@ -8,30 +8,40 @@
     <title>coding quiz</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+
     <script src="https://code.jquery.com/jquery.js"></script>
 </head>
 
 <body>
+    <h1>Welcome to the Code Quiz!</h1>
     <div id="container">
-        <div id= "start">Start Quiz!</div>
-        <div id="quiz"style="display:none"></div>
-        <div id= "questions"></div>
-        <div id="qImg"></div>
+        <div id="start">
+            <button type="button" class="btn btn-success">Start Quiz</button>
+        </div>
+        <div id="quiz" style="display:none"></div>
+
+        <div id="question">
+            <p>Question</p>
+        </div>
+    
+        <div id="timer">
+            <div id="counter">15</div>
+            <div id="btimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
         <div id="choices">
-            <div class="choice" id= "A" onclick="checkAnswer('A')"></div>
-            <div class="choice" id= "B" onclick="checkAnswer('B')"></div>
-            <div class="choice" id= "C" onclick="checkAnswer('C')"></div>
-            <div class="choice" id= "D" onclick="checkAnswer('D')"></div>
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+        </div>
+
+        <div id="progress"> <div class="prog"></div>
     </div>
-    <div id="timer">
-        <div id="counter"></div>
-        <div id="btimeGauge"></div>
-        <div id= "timeGauge"></div>
+    <div id="submit">
+        <button type="button" class="btn btn-danger">Submit Quiz</button>
     </div>
-    <div id="progress"></div>
-    </div>
-    <div id="scoreContainer"style="display:none"></div>
+    <div id="scoreContainer" style="display:none"></div>
 
 
 
